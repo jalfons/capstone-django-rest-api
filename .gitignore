@@ -1,0 +1,31 @@
+# Virtual env
+.venv/
+venv/
+
+# Env files / secrets
+.env
+.env.*
+token.txt
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Logs / pid
+*.log
+*.pid
+pip-install.log
+server.log
+pip.pid
+server.pid
+
+# Django / DB / media
+db.sqlite3
+*.sqlite3
+media/
+staticfiles/
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
